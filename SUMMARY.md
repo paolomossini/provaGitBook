@@ -1,7 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
-
 ## Chapter1
 
 * [Articoli di formazione Sme.UP e domande](chapter1/articoli-di-formazione-sme.up-e-domande/README.md)
