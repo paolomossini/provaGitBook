@@ -2,9 +2,9 @@
 
 ## Elenco articoli:
 
-* \*\*\*\*[**Come si recuperano i log da Sme.UP GO**](http://blog.smeup.com/log01/)\*\*\*\*
-* \*\*\*\*[**Motore di Ricerca in Sme.UP ERP**](http://blog.smeup.com/cerca/)\*\*\*\*
-* \*\*\*\*[**Funzione di Debug in Web.UP**](http://blog.smeup.com/webupdebug/)\*\*\*\*
+* [**Come si recuperano i log da Sme.UP GO**](http://blog.smeup.com/log01/)
+* [**Motore di Ricerca in Sme.UP ERP**](http://blog.smeup.com/cerca/)
+* [**Funzione di Debug in Web.UP**](http://blog.smeup.com/webupdebug/)
 * \*\*\*\*[**Sistemi di autodiagnosi in Sme.UP**](http://blog.smeup.com/upsme/)\*\*\*\*
 * \*\*\*\*[**I Log di comunicazione in Sme.UP**](http://blog.smeup.com/logcom/)\*\*\*\*
 * \*\*\*\*[**Debug di un servizio con STRDBG da webup ed UP JOB da emulazione 5250**](http://blog.smeup.com/strdbg-web/)\*\*\*\*
