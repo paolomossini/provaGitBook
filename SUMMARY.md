@@ -9,6 +9,6 @@
   * [Pagina di Prova](chapter1/articoli-di-formazione-sme.up-e-domande/pagina-di-prova.md)
   * [Chapter 2](chapter1/articoli-di-formazione-sme.up-e-domande/chapter-2.md)
 * [Altra sezione](chapter1/altra-sezione/README.md)
-  * [UNO](chapter1/altra-sezione/uno.md)
+  * [DUE](chapter1/altra-sezione/uno.md)
   * [Secondo SERVE](chapter1/altra-sezione/serve.md)
 
