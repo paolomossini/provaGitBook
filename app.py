@@ -1,7 +1,9 @@
 #!home/paolo/flask/bin/python
 from flask import Flask, jsonify, abort
 from flask import request
+from flask_httpauth import HTTPBasicAuth
 
+auth = HTTPBasicAuth();
 app = Flask(__name__)
 
 tasks = [
@@ -19,7 +21,18 @@ tasks = [
     }
 ]
 
+@auth.get_password
+def get_password(username):
+	if username == 'Paolo':
+		return 'PaoloPassword'
+	return None
+
+@auth.error_handler
+def unauthorized():
+	return jsonify({'error': 'Unauthorized'})
+
 @app.route('/')
+@auth.login_required
 def index():
 	print('Hello World!\n')
 	return "Hello World!\n"
@@ -34,6 +47,7 @@ def post():
 	return 'JSON posted'
 
 @app.route('/tasks', methods=['GET'])
+@auth.login_required
 def get_tasks():
 	return jsonify({'tasks': tasks})
 
